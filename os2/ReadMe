@@ -1,0 +1,25 @@
+-- Computing Statistics of a list of numbers in Parallel   Threads vs Processes 
+
+ThStat.cpp :
+
+	Compiling : g++ -std=c++11 ThStat.cpp -pthread -o thread
+	Running : ./thread <input_file_name
+
+	The output will be loaded in the file out_thread.txt
+	Time taken would be printed on the console itself.
+
+ProcStat.cpp :
+	
+	Compiling : g++ -std=c++11 ProcStat.cpp -lpthread -lrt -o process
+	Running : ./process <input_file_name
+
+	The output will be loaded in the file out_process.txt
+	Time taken would be printed on the console itself.
+
+
+test.cpp :
+
+	Compiling : g++ test.cpp
+	Running : ./a.out
+
+	The time in microseconds for each code over given input sizes is outputted into a time.csv file , this file was used to plot the graph.
