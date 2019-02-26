@@ -1,0 +1,19 @@
+Compilation :
+
+	rm scheduling :
+	g++ RMS.cpp -o RMS
+
+	edf scheduling :
+	g++ EDF.cpp -o EDF
+
+Note : Before execution , ensure the file 'inp-params.txt' is present in the the same directory as that of the executable
+
+Execution :
+	
+	rm scheduling :
+	./RMS
+
+	edf scheduling :
+	./EDF
+
+Note : Output shall be written to corresponding files
